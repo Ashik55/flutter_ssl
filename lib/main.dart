@@ -44,10 +44,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   callSSL()async {
 
-
-
-    //https://github.com/sslcommerz/SSLCommerz-Flutter/blob/master/example/lib/main.dart
-
     Sslcommerz sslcommerz = Sslcommerz(
         initializer: SSLCommerzInitialization(
           //   ipn_url: "www.ipnurl.com",
